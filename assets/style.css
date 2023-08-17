@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    
+    background-color: #181818;
+  
+}
+.icon{
+    fill: red;
+}
+/*header*/
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    padding: 0rem 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.logo{
+    display: flex;
+    margin: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.hamburguer{
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    
+}
+path{
+    stroke: red;
+}
+img.logo-youtube{
+    width: 1.8rem;
+    height: 2rem;
+    flex-shrink: 0;
+    margin-left: 2rem;
+    margin: 0 0.5rem 0 1rem;
+    }
+input.pesquisar{
+    width: 30.75rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border: 1px solid #2d2d2d;
+    background: #121212;
+    border-radius: 21rem 0 0 21rem;
+    color: white;
+    padding: 1rem;
+}
+input.pesquisar:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+input::placeholder{
+    color: #727272;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.pesquisa{
+    width: 1.5rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    cursor: pointer;
+ 
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.search{
+    width: 4.5625rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border: 1px solid #2d2d2d;
+    background: #272727;
+    cursor: pointer;
+    border-radius: 0 4.5625rem 4.5625rem  0 ;
+   
+    }
+.icons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+}
+.avatar{
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 2.125rem; 
+    margin-left: 2rem;
+    
+}
+.camera{
+    margin-right: 2rem;
+    color: white;
+}
+/*formatação de textos*/
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+}
+h2{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+h3{
+
+    font-size: 0.8rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    
+}
+p.quantidade-inscritos{
+    color: #979797;
+    font-size: 0.7rem;
+    align-self: center;
+}
+
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+}
+.text-inscrito{
+    margin-left: 0.5rem;
+}
+
+
+
+/*section videos*/
+#videos{
+   
+    display: flex;
+}
+div.videos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem 0 8rem;
+    flex-wrap: wrap;
+   
+   
+}
+
+img.canalVenom{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 2.125rem; 
+}
+div.video-action{
+    display: flex;
+    flex-direction: row;
+}
+div.canal{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 1rem;
+}
+/*botoes*/
+div.buttons-comeco{
+    display: flex;
+    flex-direction: row;
+  
+}
+button.seja-membro{
+    background-color: #0f0f0f;
+    border: 1px solid #343434;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5.5rem 5.5rem;
+    text-align: center;
+    margin: 0 0.4rem 0 0;
+}
+button.seja-membro:hover{
+    background-color: #343434;
+    border: 1px solid #343434;
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 5.5rem 5.5rem;
+    text-align: center;
+  
+}
+
+button.inscrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5.5rem 5.5rem;
+    text-align: center;
+    
+}
+button.inscrito:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 5.5rem 5.5rem;
+    text-align: center;
+    
+    
+}
+.sino-inscrito{
+    margin-left: 0.5rem;
+}
+button{
+    background-color: #272727;
+    border: none;
+    color: white;
+    
+}
+
+button:hover{
+    background-color: #272727;
+    border: none;
+    color: white;
+    background-color: #535353;
+    cursor: pointer;
+}
+
+div.buttons-fim{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+button.like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.5rem;
+    height: 2.5rem;
+    border-radius: 5.5rem 0 0 5.5rem;
+    text-align: center;
+}
+.icon-like{
+    margin-right: 0.4rem;
+}
+button.deslike{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 0 5.5rem 5.5rem 0;
+    text-align: center;
+    border-left: 1px solid white;
+    
+}
+button.deslike:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 0 5.5rem 5.5rem 0;
+    text-align: center;
+    border-left: 1px solid white;
+    
+}
+
+button.compartilhar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius:  3.5rem 3.5rem ;
+    margin: 0 1rem;
+}
+
+button.tres-pontos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 2.5rem;
+    border-radius:  3.5rem 3.5rem ;
+    padding: 1rem;
+    
+}
+
+div.textos{
+    margin: 2rem 0;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #282828;
+
+}
+div.textos:hover{
+    margin: 2rem 0;
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #535353;
+    cursor: pointer;
+}
+h3.visualizacoes{
+    margin-bottom: 0.7rem;
+    font-weight: 500;
+}
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #97979757;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+img.descricao{
+    width: 1rem;   
+    margin: 2px 0.3rem;
+}
+p.descricao{
+    display: flex;
+    height: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+    align-items: center;
+ 
+}
+p.descricao2{
+    display: flex;
+    height: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    align-items: center;
+   
+   
+}
+.categoria{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 6.5rem;
+    border-radius: 1rem;
+
+}
+
+div.jogo{
+    display: flex;
+    width: 50%;
+    border-radius: 0.8rem;
+    margin-right: 1rem;
+    background-color: #282828;
+    cursor: pointer;
+}
+
+img.minecraft{
+    height: 6.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+div.textos-categoria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+    
+}
+h3.cabecalho-categoria{
+    font-size: 1rem;
+}
+p.texto-categoria{
+    color: #878787;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+p.mais-infos{
+    color: #878787;
+    font-size: 1rem;
+    font-weight: 700;
+}
+div.videogame{
+    display: flex;
+    width: 50%;
+  
+    border-radius: 0.8rem;
+    background-color: #282828;
+    cursor: pointer;
+}
+div.textos-categoria-games{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+}
+img.games{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5rem;
+    align-self: center;
+    margin-left: 1rem;
+}
+div.comentarios{
+    display: flex;
+    flex-direction: column;
+}
+div.infos-comentarios{
+    display: flex;
+    
+    margin: 2rem 0;
+}
+h3.numero-comentarios{
+    font-size: 1rem;
+    font-weight: 600;
+}
+p.ordenar-por{
+    display: flex;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 400;
+    width: 8rem;
+    height: 2rem;
+}
+div.area-comentarios{
+    display: flex;
+    width: 100%;
+   
+}
+
+input.comentarios{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #717171;
+    width: 100%;
+    margin-left: 1rem;
+    color: white;
+    
+} 
+input.comentarios:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+img.avatar-comentarios{
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 2.125rem; 
+    
+}
+
+div.emoji-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.comentario-icon{
+    margin-left: 2rem;
+    order: -1;
+    padding: 0.2rem;
+}
+.comentario-icon:hover{
+    margin-left: 2rem;
+    order: -1;
+    background-color: #535353;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+button.comentario-canecelar{
+    background: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: auto;
+}
+button.comentario-canecelar:hover{
+    background: #535353;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+    margin-left: auto;
+    border-radius: 1.5rem;
+}
+button.comentar{
+    background: rgba(255, 0, 0, 0.349);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+}
+button.comentar:hover{
+    background: rgb(255, 0, 0);
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 1.5rem;
+}
+div.comentarios-usuarios{
+    display: flex;
+    flex-direction: row;
+    
+}
+div.area-comentada{
+    display: flex;
+    flex-direction: column;
+    
+}
+img.avatar-usuarios{
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 2.125rem; 
+    margin-right: 1rem;
+    align-self: center;
+
+}
+h2.nome-usuario{
+    font-size: 0.8rem;
+    
+}
+p.texto-comentario{
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+div.emojis-responder{
+    display: flex;
+    flex-direction: row;
+    
+}
+button.like-comentarios{
+    background: none;
+    display: flex;
+    width: 5rem;
+    align-items: center;
+    margin-left: 2.5rem;
+  
+}
+p.curtida-video{
+    margin-left: 0.5rem;
+    align-self: center;
+}
+.icon-like-comentarios:hover{
+    background-color: #535353;
+    border-radius: 0.8rem;
+}
+button.deslike-comentarios{
+    background: none;
+    display: flex;
+    width: 5rem;
+    align-items: center;
+  
+}
+.icon-deslike-comentarios:hover{
+    background-color: #535353;
+    border-radius: 0.8rem;
+}
+/*sidebar (videos relacionados)*/
+
+
+div.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 100%;
+}
+div.video-relacionado{
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 1rem;
+}
+
+.capa{
+    width: 10rem;
+ 
+}
+div.textos-videos{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+   
+}
+.visualizacoes-postagem{
+    font-size: 0.8rem;
+    color: #969696;
+}
+.canal-yt{
+    font-size: 0.8rem;
+    color: #969696;
+}
